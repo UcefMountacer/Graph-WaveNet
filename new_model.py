@@ -9,11 +9,12 @@ from new_layers.gru import GRUModel
 def get_xt_from_x(x):
 
     ''' 
+    TO DO
     get it from dataset.py in 3dgcn
     '''
+    
 
-
-    return x_t
+    return
 
 class nconv(nn.Module):
     def __init__(self):
