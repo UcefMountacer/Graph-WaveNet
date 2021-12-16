@@ -1,5 +1,6 @@
 import torch.optim as optim
-from model import *
+# from model import *
+from new_model import *
 import util
 class trainer():
     def __init__(self, scaler, in_dim, seq_length, num_nodes, nhid , dropout, lrate, wdecay, device, supports, gcn_bool, addaptadj, aptinit):

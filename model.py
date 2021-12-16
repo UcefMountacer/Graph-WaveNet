@@ -5,6 +5,7 @@ from torch.autograd import Variable
 import sys
 
 
+
 class nconv(nn.Module):
     def __init__(self):
         super(nconv,self).__init__()
